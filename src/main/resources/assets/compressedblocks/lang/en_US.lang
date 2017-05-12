@@ -1,0 +1,21 @@
+# Items
+
+# Blocks
+tile.compressedOak.name=Compressed Oak
+tile.compressedSpruce.name=Compressed Spruce
+tile.compressedBirch.name=Compressed Birch
+tile.compressedJungle.name=Compressed Jungle
+tile.compressedAcacia.name=Compressed Acacia
+tile.compressedDarkOak.name=Compressed Dark Oak
+
+tile.compressedDirt.name=Compressed Dirt
+tile.compressedStone.name=Compressed Stone
+tile.compressedCobblestone.name=Compressed Cobblestone
+tile.compressedGravel.name=Compressed Gravel
+tile.compressedSand.name=Compressed Sand
+tile.compressedRedSand.name=Compressed Red Sand
+tile.compressedSoulSand.name=Compressed Soul Sand
+tile.compressedNetherrack.name=Compressed Netherrack
+
+# Creative Tab
+itemGroup.compressedblocks=Compressed Blocks

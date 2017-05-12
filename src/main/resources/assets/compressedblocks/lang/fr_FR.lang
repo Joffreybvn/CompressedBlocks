@@ -1,0 +1,21 @@
+# Items
+
+# Blocks
+tile.compressedOak.name=Chêne Compressé
+tile.compressedSpruce.name=Epicéa Compressé
+tile.compressedBirch.name=Bouleau Compressé
+tile.compressedJungle.name=Jungle Compressé
+tile.compressedAcacia.name=Acacia Compressé
+tile.compressedDarkOak.name=Chêne noir Compressé
+
+tile.compressedDirt.name=Terre Compressée
+tile.compressedStone.name=Roche Compressée
+tile.compressedCobblestone.name=Pierres Compressées
+tile.compressedGravel.name=Gravier Compressé
+tile.compressedSand.name=Sable Compressé
+tile.compressedRedSand.name=Sable Rouge Compressé
+tile.compressedSoulSand.name=Sable des âmes Compressé
+tile.compressedNetherrack.name=Roche du Nether Compressée
+
+# Creative Tab
+itemGroup.compressedblocks=Blocs Compressés
