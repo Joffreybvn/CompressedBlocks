@@ -25,6 +25,11 @@ First, here is the list of the blocks that you can compress (and uncompress):
  - Soul Sand
  - Netherrack
  
-### Compressing and uncompressing:
-Get a crafting table and do like that:
-![Image](https://github.com//Joffrey4/CompressedBlocks/blob/master/docs/assets/images/blocks_3.png?raw=true)
+### Crafts for compressing and uncompressing:
+Get a crafting table and do like on this picture. You can naturally do these crafts with all the blocks listed above.
+![Image](https://github.com//Joffrey4/CompressedBlocks/blob/master/docs/assets/images/blocks_2.png?raw=true)
+
+### Block placing and destroying
+All compressed blocks can be placed in the world. But, once you destroy them, you don't get back a compressed block. You got a stack of the uncompressed blocks.
+**For example:** if you destroy a compressed Cobblestone block, a stack of 4 ~ 7 Cobblestone drop. Like on this picture:
+![Image](https://github.com//Joffrey4/CompressedBlocks/blob/master/docs/assets/images/blocks_4.gif?raw=true)
