@@ -27,4 +27,4 @@ First, here is the list of the blocks that you can compress (and uncompress):
  
 ### Compressing and uncompressing:
 Get a crafting table and do like that:
-![Image](https://github.com//Joffrey4/CompressedBlocks/blob/master/docs/assets/images/blocks_2.png?raw=true)
+![Image](https://github.com//Joffrey4/CompressedBlocks/blob/master/docs/assets/images/blocks_3.png?raw=true)
