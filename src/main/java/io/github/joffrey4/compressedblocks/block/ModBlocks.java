@@ -17,6 +17,14 @@ public class ModBlocks {
     public static BlockCompressedLog compressedAcacia;
     public static BlockCompressedLog compressedDarkOak;
 
+    // Compressed Planks
+    public static BlockCompressedPlank compressedOakPlank;
+    public static BlockCompressedPlank compressedSprucePlank;
+    public static BlockCompressedPlank compressedBirchPlank;
+    public static BlockCompressedPlank compressedJunglePlank;
+    public static BlockCompressedPlank compressedAcaciaPlank;
+    public static BlockCompressedPlank compressedDarkOakPlank;
+
     // Compressed Falling blocks
     public static BlockCompressedFalling compressedGravel;
     public static BlockCompressedSand compressedSand;
@@ -38,6 +46,14 @@ public class ModBlocks {
         compressedJungle = register(new BlockCompressedLog("compressedJungle", Blocks.LOG, 3));
         compressedAcacia = register(new BlockCompressedLog("compressedAcacia", Blocks.LOG2, 0));
         compressedDarkOak = register(new BlockCompressedLog("compressedDarkOak", Blocks.LOG2, 1));
+
+        // Compressed Planks
+        compressedOakPlank = register(new BlockCompressedPlank("compressedOakPlank", Blocks.PLANKS, 0));
+        compressedSprucePlank = register(new BlockCompressedPlank("compressedSprucePlank", Blocks.PLANKS, 1));
+        compressedBirchPlank = register(new BlockCompressedPlank("compressedBirchPlank", Blocks.PLANKS, 2));
+        compressedJunglePlank = register(new BlockCompressedPlank("compressedJunglePlank", Blocks.PLANKS, 3));
+        compressedAcaciaPlank = register(new BlockCompressedPlank("compressedAcaciaPlank", Blocks.PLANKS, 4));
+        compressedDarkOakPlank = register(new BlockCompressedPlank("compressedDarkOakPlank", Blocks.PLANKS, 5));
 
         // Compressed Falling blocks
         compressedGravel = register(new BlockCompressedFalling(Material.SAND, "compressedGravel", Blocks.GRAVEL, SoundType.GROUND));

@@ -8,6 +8,13 @@ tile.compressedJungle.name=Compressed Jungle
 tile.compressedAcacia.name=Compressed Acacia
 tile.compressedDarkOak.name=Compressed Dark Oak
 
+tile.compressedOakPlank.name=Compressed Oak Wood Planks
+tile.compressedSprucePlank.name=Compressed Spruce Wood Planks
+tile.compressedBirchPlank.name=Compressed Birch Wood Planks
+tile.compressedJunglePlank.name=Compressed Jungle Wood Planks
+tile.compressedAcaciaPlank.name=Compressed Acacia Wood Planks
+tile.compressedDarkOakPlank.name=Compressed Dark Oak Wood Planks
+
 tile.compressedDirt.name=Compressed Dirt
 tile.compressedStone.name=Compressed Stone
 tile.compressedCobblestone.name=Compressed Cobblestone

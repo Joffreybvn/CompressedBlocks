@@ -10,7 +10,7 @@ public class ModRecipes {
     public static void init() {
 
         /*************************************************************************************************
-         * Compressed WOOD's - Recipes                                                                   *
+         * Compressed WOODS - Recipes                                                                    *
          *************************************************************************************************/
 
         // Oak Wood compressing and uncompressing
@@ -38,7 +38,35 @@ public class ModRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LOG2, 9, 1), ModBlocks.compressedDarkOak);
 
         /*************************************************************************************************
-         * Compressed OTHER BLOCK's - Recipes                                                            *
+         * Compressed PLANKS - Recipes                                                                   *
+         *************************************************************************************************/
+
+        // Oak Plank compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedOakPlank), "PPP", "PPP", "PPP", 'P', new ItemStack(Blocks.PLANKS, 1, 0));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 0), ModBlocks.compressedOakPlank);
+
+        // Spruce Plank compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedSprucePlank), "PPP", "PPP", "PPP", 'P', new ItemStack(Blocks.PLANKS, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 1), ModBlocks.compressedSprucePlank);
+
+        // Birch Plank compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedBirchPlank), "PPP", "PPP", "PPP", 'P', new ItemStack(Blocks.PLANKS, 1, 2));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 2), ModBlocks.compressedBirchPlank);
+
+        // Jungle Plank compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedJunglePlank), "PPP", "PPP", "PPP", 'P', new ItemStack(Blocks.PLANKS, 1, 3));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 3), ModBlocks.compressedJunglePlank);
+
+        // Acacia Plank compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedAcaciaPlank), "PPP", "PPP", "PPP", 'P', new ItemStack(Blocks.PLANKS, 1, 4));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 4), ModBlocks.compressedAcaciaPlank);
+
+        // Dark Oak Plank compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedDarkOakPlank), "PPP", "PPP", "PPP", 'P', new ItemStack(Blocks.PLANKS, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 5), ModBlocks.compressedDarkOakPlank);
+
+        /*************************************************************************************************
+         * Compressed OTHER BLOCKS - Recipes                                                              *
          *************************************************************************************************/
 
         // Dirt compressing and uncompressing

@@ -8,6 +8,13 @@ tile.compressedJungle.name=Jungle Compressé
 tile.compressedAcacia.name=Acacia Compressé
 tile.compressedDarkOak.name=Chêne noir Compressé
 
+tile.compressedOakPlank.name=Planches de chêne compressées
+tile.compressedSprucePlank.name=Planches de sapin compressées
+tile.compressedBirchPlank.name=Planches de bouleau compressées
+tile.compressedJunglePlank.name=Planches d'acajou compressées
+tile.compressedAcaciaPlank.name=Planches d'acacia compressées
+tile.compressedDarkOakPlank.name=Planches de chêne noir compressées
+
 tile.compressedDirt.name=Terre Compressée
 tile.compressedStone.name=Roche Compressée
 tile.compressedCobblestone.name=Pierres Compressées

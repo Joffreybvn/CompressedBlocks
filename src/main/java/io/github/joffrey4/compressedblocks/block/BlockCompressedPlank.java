@@ -4,17 +4,15 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.util.math.BlockPos;
 
+public class BlockCompressedPlank extends BlockCompressed {
 
-public class BlockCompressedLog extends BlockCompressed {
+    private int plankMeta;
 
-    private int logMeta;
-
-    public BlockCompressedLog(String name, Block droppedBlock, int logMeta) {
+    public BlockCompressedPlank(String name, Block droppedBlock, int plankMeta) {
         super(Material.WOOD, name, droppedBlock, SoundType.WOOD);
 
-        this.logMeta = logMeta;
+        this.plankMeta = plankMeta;
     }
 
     /**
@@ -23,11 +21,6 @@ public class BlockCompressedLog extends BlockCompressed {
      */
     public int damageDropped(IBlockState state)
     {
-        return (logMeta);
-    }
-
-    @Override
-    public boolean canSustainLeaves(IBlockState state, net.minecraft.world.IBlockAccess world, BlockPos pos) {
-        return true;
+        return (plankMeta);
     }
 }
