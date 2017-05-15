@@ -18,7 +18,7 @@ Simply put the **.jar** mod file into the "mods" directory of you minecraft clie
 # How to use this mod ?
 First, here is the list of the blocks that you can compress (and uncompress):
  - All kind of woods (Logs)
-  - ***new 1.1:*** All kind od planks
+  - ***new 1.1:*** All kind of planks
  - Dirt
  - Stone
  - Cobblestone

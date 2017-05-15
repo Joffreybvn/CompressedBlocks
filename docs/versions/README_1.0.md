@@ -9,7 +9,7 @@ You can use this mod on clients and servers that are running Forge. You need:
 - Forge 12.18.3.2281 +
 
 ### Downloads
-This mod is currently available for **Minecraft 1.10.2**. You can download the latest version by clicking [over here](https://github.com/Joffrey4/CompressedBlocks/releases).
+This mod is currently available for **Minecraft 1.10.2**. You can download the **1.0** version by clicking [over here](https://github.com/Joffrey4/CompressedBlocks/releases/tag/v1.10.2-1.0).
 
 ### Installing
 Simply put the **.jar** mod file into the "mods" directory of you minecraft client folder, or server folder.
