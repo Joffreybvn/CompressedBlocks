@@ -18,8 +18,15 @@ public class BlockBase extends Block {
         setRegistryName(name);
     }
 
+
     public void registerItemModel(ItemBlock itemBlock) {
         CompressedBlocksMod.proxy.registerItemRenderer(itemBlock, 0, name);
+    }
+
+    @Override
+    public BlockBase setCreativeTab(CreativeTabs tab) {
+        super.setCreativeTab(tab);
+        return this;
     }
 
 }

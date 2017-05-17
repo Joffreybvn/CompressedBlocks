@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "compressedblocks:blocks/compressedDarkOakPlank"
+      "all": "compressedblocks:blocks/compressed_birch_plank"
     }
   },
   "variants": {

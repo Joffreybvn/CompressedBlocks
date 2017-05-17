@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "compressedblocks:blocks/compressedJungle"
+      "all": "compressedblocks:blocks/compressed_dark_oak"
     }
   },
   "variants": {

@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "compressedblocks:blocks/compressedBirchPlank"
+      "all": "compressedblocks:blocks/compressed_cobblestone"
     }
   },
   "variants": {

@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.item.EntityFallingBlock;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.BlockPos;
@@ -28,6 +29,7 @@ public class BlockCompressedFalling extends BlockCompressed {
     /**
      * Called after the block is set in the Chunk data, but before the Tile Entity is set
      */
+    @Override
     public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state)
     {
         worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
@@ -38,11 +40,13 @@ public class BlockCompressedFalling extends BlockCompressed {
      * change. Cases may include when redstone power is updated, cactus blocks popping off due to a neighboring solid
      * block, etc.
      */
-    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn)
+    @Override
+    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos)
     {
         worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
     }
 
+    @Override
     public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand)
     {
         if (!worldIn.isRemote)
@@ -63,7 +67,7 @@ public class BlockCompressedFalling extends BlockCompressed {
                 {
                     EntityFallingCompressedBlock entityfallingblock = new EntityFallingCompressedBlock(worldIn, (double)pos.getX() + 0.5D, (double)pos.getY(), (double)pos.getZ() + 0.5D, worldIn.getBlockState(pos), droppedBlock);
                     this.onStartFalling(entityfallingblock);
-                    worldIn.spawnEntityInWorld(entityfallingblock);
+                    worldIn.spawnEntity(entityfallingblock);
                 }
             }
             else
@@ -85,7 +89,7 @@ public class BlockCompressedFalling extends BlockCompressed {
         }
     }
 
-    protected void onStartFalling(EntityFallingCompressedBlock fallingEntity)
+    protected void onStartFalling(EntityFallingBlock fallingEntity)
     {
     }
 
@@ -105,6 +109,10 @@ public class BlockCompressedFalling extends BlockCompressed {
     }
 
     public void onEndFalling(World worldIn, BlockPos pos)
+    {
+    }
+
+    public void onBroken(World p_190974_1_, BlockPos p_190974_2_)
     {
     }
 

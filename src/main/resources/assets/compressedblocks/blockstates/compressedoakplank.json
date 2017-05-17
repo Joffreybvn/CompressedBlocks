@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "compressedblocks:blocks/compressedRedSand"
+      "all": "compressedblocks:blocks/compressed_oak_plank"
     }
   },
   "variants": {

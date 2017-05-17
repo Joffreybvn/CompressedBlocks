@@ -3,7 +3,7 @@ package io.github.joffrey4.compressedblocks.client;
 import io.github.joffrey4.compressedblocks.CompressedBlocksMod;
 import io.github.joffrey4.compressedblocks.block.ModBlocks;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class CompressedBlocksTab extends CreativeTabs {
 
@@ -12,7 +12,7 @@ public class CompressedBlocksTab extends CreativeTabs {
     }
 
     @Override
-    public Item getTabIconItem() {
-        return Item.getItemFromBlock(ModBlocks.compressedOak);
+    public ItemStack getTabIconItem() {
+        return new ItemStack(ModBlocks.compressedOak);
     }
 }

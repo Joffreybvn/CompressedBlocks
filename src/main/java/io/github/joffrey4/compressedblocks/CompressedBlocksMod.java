@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = CompressedBlocksMod.modId, name = CompressedBlocksMod.name, version = CompressedBlocksMod.version, acceptedMinecraftVersions = "[1.10.2]")
+@Mod(modid = CompressedBlocksMod.modId, name = CompressedBlocksMod.name, version = CompressedBlocksMod.version, acceptedMinecraftVersions = "[1.11.2]")
 public class CompressedBlocksMod {
 
     @SidedProxy(serverSide = "io.github.joffrey4.compressedblocks.proxy.CommonProxy", clientSide = "io.github.joffrey4.compressedblocks.proxy.ClientProxy")
@@ -18,7 +18,7 @@ public class CompressedBlocksMod {
 
     public static final String modId = "compressedblocks";
     public static final String name = "Compressed Blocks";
-    public static final String version = "1.1.0";
+    public static final String version = "1.1";
 
     public static final CompressedBlocksTab creativeTab = new CompressedBlocksTab();
 

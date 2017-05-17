@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "compressedblocks:blocks/compressedSoulSand"
+      "all": "compressedblocks:blocks/compressed_red_sand"
     }
   },
   "variants": {

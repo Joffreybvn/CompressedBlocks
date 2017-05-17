@@ -1,16 +1,15 @@
-[
-{
+[{
   "modid": "compressedblocks",
   "name": "Compressed Blocks",
-  "description": "Spare space by compressing and uncompressing blocks !",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "description": "Save space in your chests by compressing your blocks !",
+  "version": "1.1 for MC 1.11.2",
+  "mcversion": "1.11.2",
   "url": "https://github.com/Joffrey4/CompressedBlocks",
   "updateUrl": "",
   "authorList": ["Joffrey4 aka NycoDiValones"],
   "credits": "",
-  "logoFile": "",
+  "logoFile": "assets/compressedblocks/logo.png",
   "screenshots": [],
   "dependencies": []
-}
-]
+}]
+
