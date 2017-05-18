@@ -9,8 +9,8 @@ public class BlockCompressedStone extends BlockCompressed {
 
     private int stoneMeta;
 
-    public BlockCompressedStone(String name, int stoneMeta) {
-        super(Material.ROCK, name, Blocks.STONE, SoundType.STONE);
+    public BlockCompressedStone(String name, String dictName, int stoneMeta) {
+        super(Material.ROCK, name, dictName, Blocks.STONE, SoundType.STONE);
 
         this.stoneMeta = stoneMeta;
     }

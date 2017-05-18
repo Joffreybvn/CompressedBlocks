@@ -11,8 +11,8 @@ public class BlockCompressedLog extends BlockCompressed {
 
     private int logMeta;
 
-    public BlockCompressedLog(String name, Block droppedBlock, int logMeta) {
-        super(Material.WOOD, name, droppedBlock, SoundType.WOOD);
+    public BlockCompressedLog(String name, String dictName, Block droppedBlock, int logMeta) {
+        super(Material.WOOD, name, dictName, droppedBlock, SoundType.WOOD);
 
         this.logMeta = logMeta;
     }

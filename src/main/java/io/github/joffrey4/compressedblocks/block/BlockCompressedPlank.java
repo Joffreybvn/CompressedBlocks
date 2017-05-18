@@ -9,8 +9,8 @@ public class BlockCompressedPlank extends BlockCompressed {
 
     private int plankMeta;
 
-    public BlockCompressedPlank(String name, int plankMeta) {
-        super(Material.WOOD, name, Blocks.PLANKS, SoundType.WOOD);
+    public BlockCompressedPlank(String name, String dictName, int plankMeta) {
+        super(Material.WOOD, name, dictName, Blocks.PLANKS, SoundType.WOOD);
 
         this.plankMeta = plankMeta;
     }

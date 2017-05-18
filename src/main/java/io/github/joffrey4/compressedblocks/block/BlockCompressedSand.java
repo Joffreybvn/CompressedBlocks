@@ -9,8 +9,8 @@ public class BlockCompressedSand extends BlockCompressedFalling {
 
     protected int logMeta;
 
-    public BlockCompressedSand(String name, Block droppedBlock, int logMeta) {
-        super(Material.SAND, name, droppedBlock, SoundType.SAND);
+    public BlockCompressedSand(String name, String dictName, Block droppedBlock, int logMeta) {
+        super(Material.SAND, name, dictName, droppedBlock, SoundType.SAND);
 
         this.logMeta = logMeta;
     }
