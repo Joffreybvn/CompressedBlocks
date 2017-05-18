@@ -5,14 +5,14 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 
-public class BlockCompressedPlank extends BlockCompressed {
+public class BlockCompressedStone extends BlockCompressed {
 
-    private int plankMeta;
+    private int stoneMeta;
 
-    public BlockCompressedPlank(String name, int plankMeta) {
-        super(Material.WOOD, name, Blocks.PLANKS, SoundType.WOOD);
+    public BlockCompressedStone(String name, int stoneMeta) {
+        super(Material.ROCK, name, Blocks.STONE, SoundType.STONE);
 
-        this.plankMeta = plankMeta;
+        this.stoneMeta = stoneMeta;
     }
 
     /**
@@ -21,6 +21,6 @@ public class BlockCompressedPlank extends BlockCompressed {
      */
     public int damageDropped(IBlockState state)
     {
-        return (plankMeta);
+        return (stoneMeta);
     }
 }

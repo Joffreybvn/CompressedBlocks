@@ -2,7 +2,7 @@
   "modid": "compressedblocks",
   "name": "Compressed Blocks",
   "description": "Save space in your chests by compressing your blocks !",
-  "version": "1.1 for MC 1.11.2",
+  "version": "1.2 for MC 1.11.2",
   "mcversion": "1.11.2",
   "url": "https://github.com/Joffrey4/CompressedBlocks",
   "updateUrl": "",

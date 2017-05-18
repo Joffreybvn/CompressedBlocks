@@ -15,12 +15,17 @@ tile.compressedJunglePlank.name=Planches d'acajou compressées
 tile.compressedAcaciaPlank.name=Planches d'acacia compressées
 tile.compressedDarkOakPlank.name=Planches de chêne noir compressées
 
-tile.compressedDirt.name=Terre Compressée
-tile.compressedStone.name=Roche Compressée
-tile.compressedCobblestone.name=Pierres Compressées
 tile.compressedGravel.name=Gravier Compressé
 tile.compressedSand.name=Sable Compressé
 tile.compressedRedSand.name=Sable Rouge Compressé
+
+tile.compressedStone.name=Roche Compressée
+tile.compressedGranite.name=Granite Compressé
+tile.compressedDiorite.name=Diorite Compressée
+tile.compressedAndesite.name=Andésite Compressée
+
+tile.compressedDirt.name=Terre Compressée
+tile.compressedCobblestone.name=Pierres Compressées
 tile.compressedSoulSand.name=Sable des âmes Compressé
 tile.compressedNetherrack.name=Roche du Nether Compressée
 

@@ -30,9 +30,14 @@ public class ModBlocks {
     public static BlockCompressedSand compressedSand;
     public static BlockCompressedSand compressedRedSand;
 
+    // Compressed Stone blocks
+    public static BlockCompressed compressedStone;
+    public static BlockCompressedStone compressedGranite;
+    public static BlockCompressedStone compressedDiorite;
+    public static BlockCompressedStone compressedAndesite;
+
     // Others compressed blocks
     public static BlockCompressed compressedDirt;
-    public static BlockCompressed compressedStone;
     public static BlockCompressed compressedCobblestone;
     public static BlockCompressed compressedSoulSand;
     public static BlockCompressed compressedNetherrack;
@@ -48,21 +53,26 @@ public class ModBlocks {
         compressedDarkOak = register(new BlockCompressedLog("compressedDarkOak", Blocks.LOG2, 1));
 
         // Compressed Planks
-        compressedOakPlank = register(new BlockCompressedPlank("compressedOakPlank", Blocks.PLANKS, 0));
-        compressedSprucePlank = register(new BlockCompressedPlank("compressedSprucePlank", Blocks.PLANKS, 1));
-        compressedBirchPlank = register(new BlockCompressedPlank("compressedBirchPlank", Blocks.PLANKS, 2));
-        compressedJunglePlank = register(new BlockCompressedPlank("compressedJunglePlank", Blocks.PLANKS, 3));
-        compressedAcaciaPlank = register(new BlockCompressedPlank("compressedAcaciaPlank", Blocks.PLANKS, 4));
-        compressedDarkOakPlank = register(new BlockCompressedPlank("compressedDarkOakPlank", Blocks.PLANKS, 5));
+        compressedOakPlank = register(new BlockCompressedPlank("compressedOakPlank", 0));
+        compressedSprucePlank = register(new BlockCompressedPlank("compressedSprucePlank", 1));
+        compressedBirchPlank = register(new BlockCompressedPlank("compressedBirchPlank", 2));
+        compressedJunglePlank = register(new BlockCompressedPlank("compressedJunglePlank", 3));
+        compressedAcaciaPlank = register(new BlockCompressedPlank("compressedAcaciaPlank", 4));
+        compressedDarkOakPlank = register(new BlockCompressedPlank("compressedDarkOakPlank", 5));
 
         // Compressed Falling blocks
         compressedGravel = register(new BlockCompressedFalling(Material.SAND, "compressedGravel", Blocks.GRAVEL, SoundType.GROUND));
         compressedSand = register(new BlockCompressedSand("compressedSand", Blocks.SAND, 0));
         compressedRedSand = register(new BlockCompressedSand("compressedRedSand", Blocks.SAND, 1));
 
+        // Compressed Stone blocks
+        compressedStone = register(new BlockCompressed(Material.ROCK, "compressedStone", Blocks.COBBLESTONE, SoundType.STONE));
+        compressedGranite = register(new BlockCompressedStone("compressedGranite", 1));
+        compressedDiorite = register(new BlockCompressedStone("compressedDiorite", 3));
+        compressedAndesite = register(new BlockCompressedStone("compressedAndesite", 5));
+
         // Others compressed blocks
         compressedDirt = register(new BlockCompressed(Material.GROUND, "compressedDirt", Blocks.DIRT, SoundType.GROUND));
-        compressedStone = register(new BlockCompressed(Material.ROCK, "compressedStone", Blocks.STONE, SoundType.STONE));
         compressedCobblestone = register(new BlockCompressed(Material.ROCK, "compressedCobblestone", Blocks.COBBLESTONE, SoundType.STONE));
         compressedSoulSand = register(new BlockCompressed(Material.SAND, "compressedSoulSand", Blocks.SOUL_SAND, SoundType.SAND));
         compressedNetherrack = register(new BlockCompressed(Material.ROCK, "compressedNetherrack", Blocks.NETHERRACK, SoundType.STONE));
