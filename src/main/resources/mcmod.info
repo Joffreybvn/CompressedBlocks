@@ -1,14 +1,14 @@
 [
 {
-  "modid": "compressedblocks",
-  "name": "Compressed Blocks",
-  "description": "Spare space by compressing and uncompressing blocks !",
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/Joffrey4/CompressedBlocks",
+  "url": "",
   "updateUrl": "",
-  "authorList": ["Joffrey4 aka NycoDiValones"],
-  "credits": "",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
