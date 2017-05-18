@@ -12,7 +12,7 @@ This mod is also available for:
 - Minecraft (Forge) 1.10.2: [click here](https://github.com/Joffrey4/CompressedBlocks/tree/1.10.2).
 
 ### Downloads
-You can download the latest version version for **Minecraft 1.11.2** by clicking [over here](https://github.com/Joffrey4/CompressedBlocks/releases).
+You can download the latest version version for **Minecraft 1.11.2** by clicking [over here](https://github.com/Joffrey4/CompressedBlocks/releases/tag/v1.11.2-1.1).
 
 ### Installing
 Simply put the **.jar** mod file into the "mods" directory of you minecraft client folder, or server folder.
