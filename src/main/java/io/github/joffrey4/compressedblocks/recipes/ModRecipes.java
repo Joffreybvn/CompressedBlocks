@@ -89,15 +89,15 @@ public class ModRecipes {
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedStone), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 0));
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 0), ModBlocks.compressedStone);
 
-        // Stone compressing and uncompressing
+        // Granite compressing and uncompressing
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedGranite), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 1), ModBlocks.compressedGranite);
 
-        // Stone compressing and uncompressing
+        // Diorite compressing and uncompressing
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedDiorite), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 3));
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 3), ModBlocks.compressedDiorite);
 
-        // Stone compressing and uncompressing
+        // Andesite compressing and uncompressing
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedAndesite), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 5));
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 5), ModBlocks.compressedAndesite);
 
