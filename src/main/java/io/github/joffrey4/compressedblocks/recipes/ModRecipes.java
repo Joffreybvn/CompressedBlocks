@@ -66,20 +66,8 @@ public class ModRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 9, 5), ModBlocks.compressedDarkOakPlank);
 
         /*************************************************************************************************
-         * Compressed OTHER BLOCKS - Recipes                                                              *
+         * Compressed FALLING BLOCKS - Recipes                                                           *
          *************************************************************************************************/
-
-        // Dirt compressing and uncompressing
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedDirt), "DDD", "DDD", "DDD", 'D', Blocks.DIRT);
-        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.DIRT, 9), ModBlocks.compressedDirt);
-
-        // Stone compressing and uncompressing
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedStone), "SSS", "SSS", "SSS", 'S', Blocks.STONE);
-        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9), ModBlocks.compressedStone);
-
-        // Cobblestone compressing and uncompressing
-        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedCobblestone), "CCC", "CCC", "CCC", 'C', Blocks.COBBLESTONE);
-        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.COBBLESTONE, 9), ModBlocks.compressedCobblestone);
 
         // Gravel compressing and uncompressing
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedGravel), "GGG", "GGG", "GGG", 'G', Blocks.GRAVEL);
@@ -92,6 +80,38 @@ public class ModRecipes {
         // Red Sand compressing and uncompressing
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedRedSand), "RRR", "RRR", "RRR", 'R', new ItemStack(Blocks.SAND, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.SAND, 9, 1), ModBlocks.compressedRedSand);
+
+        /*************************************************************************************************
+         * Compressed STONE BLOCKS - Recipes                                                             *
+         *************************************************************************************************/
+
+        // Stone compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedStone), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 0));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 0), ModBlocks.compressedStone);
+
+        // Granite compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedGranite), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 1), ModBlocks.compressedGranite);
+
+        // Diorite compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedDiorite), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 3));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 3), ModBlocks.compressedDiorite);
+
+        // Andesite compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedAndesite), "SSS", "SSS", "SSS", 'S', new ItemStack(Blocks.STONE, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.STONE, 9, 5), ModBlocks.compressedAndesite);
+
+        /*************************************************************************************************
+         * Compressed OTHER BLOCKS - Recipes                                                              *
+         *************************************************************************************************/
+
+        // Dirt compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedDirt), "DDD", "DDD", "DDD", 'D', Blocks.DIRT);
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.DIRT, 9), ModBlocks.compressedDirt);
+
+        // Cobblestone compressing and uncompressing
+        GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedCobblestone), "CCC", "CCC", "CCC", 'C', Blocks.COBBLESTONE);
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.COBBLESTONE, 9), ModBlocks.compressedCobblestone);
 
         // Soul Sand compressing and uncompressing
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.compressedSoulSand), "SSS", "SSS", "SSS", 'S', Blocks.SOUL_SAND);

@@ -1,18 +1,18 @@
 package io.github.joffrey4.compressedblocks.block;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.init.Blocks;
 
-public class BlockCompressedSand extends BlockCompressedFalling {
+public class BlockCompressedStone extends BlockCompressed {
 
-    protected int logMeta;
+    private int stoneMeta;
 
-    public BlockCompressedSand(String name, String dictName, Block droppedBlock, int logMeta) {
-        super(Material.SAND, name, dictName, droppedBlock, SoundType.SAND);
+    public BlockCompressedStone(String name, String dictName, int stoneMeta) {
+        super(Material.ROCK, name, dictName, Blocks.STONE, SoundType.STONE);
 
-        this.logMeta = logMeta;
+        this.stoneMeta = stoneMeta;
     }
 
     /**
@@ -21,6 +21,6 @@ public class BlockCompressedSand extends BlockCompressedFalling {
      */
     public int damageDropped(IBlockState state)
     {
-        return (logMeta);
+        return (stoneMeta);
     }
 }

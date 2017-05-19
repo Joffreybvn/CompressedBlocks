@@ -19,8 +19,8 @@ public class BlockCompressedFalling extends BlockCompressed {
     public static boolean fallInstantly;
     private Block droppedBlock;
 
-    public BlockCompressedFalling(Material material, String name, Block droppedBlock, SoundType soundType) {
-        super(material, name, droppedBlock, soundType);
+    public BlockCompressedFalling(Material material, String name, String dictName, Block droppedBlock, SoundType soundType) {
+        super(material, name, dictName, droppedBlock, soundType);
 
         this.droppedBlock = droppedBlock;
     }
