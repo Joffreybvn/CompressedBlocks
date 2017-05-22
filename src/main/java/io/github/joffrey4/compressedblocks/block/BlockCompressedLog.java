@@ -30,16 +30,6 @@ public class BlockCompressedLog extends BlockCompressed {
         return (logMeta);
     }
 
-    /**
-     * Gets the metadata of the block when he is picked.
-     */
-    @Override
-    @Deprecated // Forge: Use more sensitive version below: getPickBlock
-    public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
-    {
-        return new ItemStack(Item.getItemFromBlock(this), 1, 0);
-    }
-
     @Override
     public boolean canSustainLeaves(IBlockState state, net.minecraft.world.IBlockAccess world, BlockPos pos) {
         return true;

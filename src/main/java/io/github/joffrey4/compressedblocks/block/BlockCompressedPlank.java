@@ -28,14 +28,4 @@ public class BlockCompressedPlank extends BlockCompressed {
     {
         return (plankMeta);
     }
-
-    /**
-     * Gets the metadata of the block when he is picked.
-     */
-    @Override
-    @Deprecated // Forge: Use more sensitive version below: getPickBlock
-    public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
-    {
-        return new ItemStack(Item.getItemFromBlock(this), 1, 0);
-    }
 }

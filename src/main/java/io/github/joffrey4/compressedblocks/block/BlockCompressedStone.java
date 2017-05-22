@@ -28,14 +28,4 @@ public class BlockCompressedStone extends BlockCompressed {
     {
         return (stoneMeta);
     }
-
-    /**
-     * Gets the metadata of the block when he is picked.
-     */
-    @Override
-    @Deprecated // Forge: Use more sensitive version below: getPickBlock
-    public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
-    {
-        return new ItemStack(Item.getItemFromBlock(this), 1, 0);
-    }
 }
