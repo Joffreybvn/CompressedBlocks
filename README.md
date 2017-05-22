@@ -11,7 +11,7 @@ If there is a problem, see this page for compatibility details between versions.
 ### Downloads
 This mod is currently available for:
 - **Minecraft 1.11.2** Download last version (1.2): [over here](https://github.com/Joffrey4/CompressedBlocks/releases/tag/v1.11.2-1.2).
-- Minecraft 1.10.2 Download last version (1.1): [over here](https://github.com/Joffrey4/CompressedBlocks/releases/tag/v1.10.2-1.1).
+- Minecraft 1.10.2 Download last version (1.2): [over here](https://github.com/Joffrey4/CompressedBlocks/releases/tag/v1.10.2-1.2).
 
 The complete list of all releases is available [over here](https://github.com/Joffrey4/CompressedBlocks/tags)
 
