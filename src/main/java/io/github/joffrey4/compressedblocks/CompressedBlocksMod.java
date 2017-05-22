@@ -18,7 +18,7 @@ public class CompressedBlocksMod {
 
     public static final String modId = "compressedblocks";
     public static final String name = "Compressed Blocks";
-    public static final String version = "1.2";
+    public static final String version = "1.3";
 
     public static final CompressedBlocksTab creativeTab = new CompressedBlocksTab();
 
