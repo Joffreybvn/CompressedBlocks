@@ -17,14 +17,14 @@ public class BlockCompressed extends BlockBase implements ItemOreDict {
     private Block droppedBlock;
     private String dictName;
 
-    public BlockCompressed(Material material, String name, String dictName, Block droppedBlock, SoundType soundType) {
+    public BlockCompressed(Material material, float hardness, String name, String dictName, Block droppedBlock, SoundType soundType) {
         super(material, name);
 
         this.droppedBlock = droppedBlock;
         this.dictName = dictName;
 
-        setHardness(4.0F);
-        setResistance(4.0F);
+        setHardness(hardness);
+        setResistance(2.0F);
         setSoundType(soundType);
         setCreativeTab(CompressedBlocksMod.creativeTab);
     }
@@ -34,9 +34,10 @@ public class BlockCompressed extends BlockBase implements ItemOreDict {
         OreDictionary.registerOre(dictName, this);
     }
 
+    @Override
     public int quantityDropped(Random random)
     {
-        return 4 + random.nextInt(5);
+        return 5 + random.nextInt(5);
     }
 
     @Nullable
